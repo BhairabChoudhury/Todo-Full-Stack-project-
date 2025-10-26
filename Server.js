@@ -8,8 +8,8 @@ const mongoose = require("mongoose");
 const bcrypt = require("bcrypt")
 // Connect to MongoDB Atlas
 mongoose.connect("Copy your MongoDb Compuss  URL ")
-  .then(() => console.log("✅ Connected to MongoDB Atlas"))
-  .catch(err => console.error("❌ MongoDB connection error:", err));
+  .then(() => console.log("Connected to MongoDB Atlas"))
+  .catch(err => console.error(" MongoDB connection error:", err));
   
 const app =express();
  app.use(express.json());
