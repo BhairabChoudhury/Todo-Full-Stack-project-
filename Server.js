@@ -161,6 +161,6 @@ This splits the string wherever there’s a space " ".
 
 app.listen(3000, () => {
 
-  console.log("✅ Server running on http://localhost:3000");
+  console.log(" Server running on http://localhost:3000");
 
 });
